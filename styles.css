@@ -2,16 +2,36 @@
     background-color: #fff563;
 }
 .my-gold-txt a:hover{
-    color: #fff563 !important;
+    color: #dc7614 !important;
+}
+.my-gold-txt a{
+	font-weight: bold;
 }
 /* Header sec */
 .my-header{
     background-image: url(./images/pexel3.jpg);
     background-position: top;
-    border-radius: 0px 0px 0px 40px;
+	display: flex;
+	justify-content: center;
+	/* text-align: center; */
+	
+	/* justify-items: center; */
+	flex-direction: column;
+	color: white;
+    /* border-radius: 0px 0px 40px 40px; */
     /* background-size: cover; */
     background-repeat: no-repeat;
     height: 500px;
+}
+
+.my-header h1{
+	font-size: 100px;
+	color: #dc7614;
+	font-weight: bolder;
+}
+.my-header h3{
+	font-size: 80px;
+	font-weight: bolder;
 }
 /* Header sec */
 /* - Services Section */
