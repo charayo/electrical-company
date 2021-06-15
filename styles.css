@@ -593,4 +593,13 @@
     .about-content-right{
         margin-top: 50px;
     }
+	.my-header h1{
+		font-size: 70px;
+		color: #dc7614;
+		font-weight: bolder;
+	}
+	.my-header h3{
+		font-size: 40px;
+		font-weight: bolder;
+	}
 }
