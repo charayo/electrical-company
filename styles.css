@@ -13,23 +13,36 @@
     background-position: top;
 	display: flex;
 	justify-content: center;
-	/* text-align: center; */
-	
-	/* justify-items: center; */
 	flex-direction: column;
 	color: white;
-    /* border-radius: 0px 0px 40px 40px; */
-    /* background-size: cover; */
     background-repeat: no-repeat;
     height: 500px;
+	/* position: relative; */
+}
+.h-wrap{
+	position: relative;
+}
+.h-overlay{
+    background:rgba(0, 0, 0, 0.801);
+	z-index: 1;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	color: white;
+	height: 500px;
 }
 
-.my-header h1{
+.h-overlay h1{
 	font-size: 100px;
 	color: #dc7614;
 	font-weight: bolder;
 }
-.my-header h3{
+.h-overlay h3{
 	font-size: 80px;
 	font-weight: bolder;
 }

@@ -6,94 +6,24 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="styles.css">
-    <!-- <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script> -->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
-        integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <?php
+        include("headmeta.php")
+    ?>
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-md navbar-light my-gold-txt">
-        <!--Brand-->
-        <a class="navbar-brand ml-3" href="index.html"><img src="images/logo.png" alt="logo" style="width: 50%; height: 50%;"></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="collapsibleNavbar">
-            <div id="collapsibleNavbar" class="navbar-collapse collapse">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a href="index.html" class="nav-link">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="about.html" class="nav-link">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="services.html" class="nav-link">Services</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="career.html" class="nav-link">Career</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="contact-us.html" class="nav-link">Contact</a>
-                    </li>
-                </ul>
-            </div>
-    </nav>
+    <?php
+        include("navbar.php");
+    ?>
     <!--Header section-->
-    <div class="container-fluid my-header">
-        <div class="container p-3">
-            <h1 class="">JW</h1>
-            <h3>Electricals</h3>
-        </div>
-    </div>
+    <?php
+        include("header.php");
+    ?>
     <!--Header section-->
     <!-- Services Section -->
-    <div class="services-section   container-fluid">
-        <!-- Container -->
-        <div class="container">
-            <!-- Section Header -->
-            <div class="section-header text-center">
-                <h3>Our services </h3>
-                <img class="separator" src="images/seprator.png" alt="seprator" />
-                <p>Come aboard were expecting you. Love life's sweetest reward Let it flow it floats back to you? And if
-                </p>
-            </div><!-- Section Header /- -->
-            <div class="row">
-                <div class="col-md-4 col-sm-6 col-xs-6">
-                    <div class="srv-box">
-                        <i class="fas fa-bolt"></i>
-                        <h5>Electrical Maintenance</h5>
-                        <p>The first mate and his Skipper too will do their very best to make the others comfortable</p>
-                        <a href="#">Read More</a>
-                    </div>
-                </div>
-
-                <div class="col-md-4 col-sm-6 col-xs-6">
-                    <div class="srv-box">
-                        <i class="far fa-lightbulb"></i>
-                        <h5>Lightings & Repair</h5>
-                        <p>The first mate and his Skipper too will do their very best to make the others comfortable</p>
-                        <a href="#">Read More</a>
-                    </div>
-                </div>
-
-                <div class="col-md-4 col-sm-6 col-xs-6">
-                    <div class="srv-box">
-                        <i class="fas fa-screwdriver"></i>
-                        <h5>Installation</h5>
-                        <p>The first mate and his Skipper too will do their very best to make the others comfortable</p>
-                        <a href="#">Read More</a>
-                    </div>
-                </div>
-            </div>
-
-        </div><!-- Container /- -->
-    </div>
+    <?php
+        include("service-section.php")
+    ?>
     <!-- Services Section -->
     <!-- About Section -->
     <div class="about-section  container-fluid">
@@ -242,7 +172,9 @@
                 </div>
             </li>
         </ul>
-    </div><!-- Gallery Section /- -->
+    </div>
+    <!-- Gallery Section /- -->
+    <!--CEO's tab-->
     <div class="container row p-5">
         <div class="col-sm-4">
             <img src="/images/gallery-3.jpg" alt="" class="img-thumbnail" style="border-radius: 50%;">
@@ -262,17 +194,10 @@
         </div>
     </div>
     <!-- Call Out -->
-    <div class="call-out   container-fluid">
-        <!-- Container -->
-        <div class="container">
-            <div class="call-out-content">
-                <h5>the high standard <span>electrical equipments</span> available...! </h5>
-                <p>on the way to where the air is sweet. can you tell me how to get time to raise th curtainin the
-                    higher value of the gird <br>time to rise the voice of object<br></p>
-                <a href="/contact-us.html" >Contact Us</a>
-            </div>
-        </div><!-- Container /- -->
-    </div><!-- Call Out /- -->
+        <?php
+            include("call-out.php");
+        ?>
+    <!-- Call Out /- -->
 
     <!-- Testimonial Section -->
     <div class="testimonial-section   container-fluid mt-3">
@@ -309,15 +234,20 @@
                         <div class="container">
                             <h5> Sandy Alext</h5>
                             <span>Contractor</span>
-                            <p>"time to raise the curtain on the Muppet Show tonight. Fleeing from the Cylon tyranny the
-                                last Battlestar – Galactica - " </p>
+                            <p class="">After extensive research, we selected and engaged Jwelectricals to prepare full
+                                elecrical service in our new headquaters. From inception, their customer
+                                service was exemplary in courtesy and professionalism.
+
+                                Lastly, and most importantly, we have received numerous compliments on our website and
+                                marketing materials, from clients and industry peers. We highly recommend Jwelectricals.
+                            </p>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-5 card p-4 mt-4">
                     <div class="d-flex">
                         <div class="">
-                            <img src="images/team-3.jpg" alt="testi" />
+                            <img src="images/team-3.jpg" alt="testi" class="w-75" />
                         </div>
 
                         <div class="container">
@@ -332,7 +262,7 @@
                 <div class="col-md-5 card p-4 mt-4">
                     <div class="d-flex">
                         <div class="">
-                            <img src="images/team-2.jpg" alt="testi" />
+                            <img src="images/team-2.jpg" alt="testi" class="w-75" />
                         </div>
 
                         <div class="container">
@@ -349,75 +279,9 @@
         </div><!-- Container /- -->
     </div><!-- Testimonial Section /- -->
     <!-- Footer Main -->
-    <footer id="footer-main" class="footer-main container-fluid   mt-5">
-        <!-- Container -->
-        <div class="container">
-            <!-- Row -->
-            <div class="row">
-                <!-- Widget About -->
-                <div class="col-md-3 col-sm-6 col-xs-6">
-                    <aside class="widget widget_about">
-                        <h3 class="widget-title">About Us</h3>
-                        <p>together yet they were all alone. Wouldn't you like to get away? Sometimes you want to go
-                            where everybody</p>
-                        <ul class="footer-social">
-                            <li><a href="#"><i class="fas fa-coffee"></i></a></li>
-                            <li><a href="#"><i class="fas fa-coffee"></i></a></li>
-                            <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-                            <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                            <li><a href="#"><i class="fa fa-instagram"></i></a></li>
-                        </ul>
-                    </aside>
-                </div><!-- Widget About /- -->
-                <!-- Widget Links -->
-                <div class="col-md-3 col-sm-6 col-xs-6">
-                    <aside class="widget widget_links">
-                        <h3 class="widget-title">quick links</h3>
-                        <ul>
-                            <li><a href="index.html">Home</a></li>
-                            <li><a href="about.html">About Us</a></li>
-                            <li><a href="services.html">Our Services</a></li>
-                            <li><a href="career.html">Career</a></li>
-                            <li><a href="contact-us.html">Contact Us</a></li>
-                        </ul>
-                    </aside>
-                </div><!-- Widget Links /- -->
-                <!-- Widget Links -->
-                <div class="col-md-3 col-sm-6 col-xs-6">
-                    <aside class="widget widget_services">
-                        <h3 class="widget-title">our services</h3>
-                        <ul>
-                            <li><a href="#" title="Digital multimeter">Digital multimeter</a></li>
-                            <li><a href="#" title="Impact driller">Impact driller</a></li>
-                            <li><a href="#" title="Angle Grinder">Angle Grinder</a></li>
-                            <li><a href="#" title="Grip wrench">Grip wrench</a></li>
-                            <li><a href="#" title="Soldering Kit">Soldering Kit</a></li>
-                        </ul>
-                    </aside>
-                </div><!-- Widget Links /- -->
-                <!-- Widget Info -->
-                <div class="col-md-3 col-sm-6 col-xs-6">
-                    <aside class="widget widget_info">
-                        <h3 class="widget-title">Info</h3>
-                        <p>You may contact us during working timing</p>
-                        <p><i class="icon icon-Phone2"></i> <span>Tel</span><a href="tel:817-909-0836"> : 817-909-0836
-                            </a></p>
-                        <p><i class="icon icon-Mail"></i> <span>Email</span><a href="jwelectricals@usa.com"> :
-                                jwelectricals@usa.com</a></p>
-                        <p><i class="icon icon-Time"></i> <span>Working Hours </span> : 8:00 a.m - 17:00 a.m</p>
-                    </aside>
-                </div>
-                <!-- Widget Info /- -->
-            </div><!-- Row /- -->
-        </div><!-- Container /- -->
-    </footer><!-- Footer Main /- -->
-
-    <div class="copyright-section container-fluid  ">
-        <!-- Container -->
-        <div class="container">
-            <p>&copy; Copyright Jwelectricals 2021. All Rights reserved</p>
-        </div><!-- Container /- -->
-    </div>
+    <?php
+        include("footer.php")
+    ?>
 </body>
 
 </html>
