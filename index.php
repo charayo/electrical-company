@@ -5,9 +5,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Jwelectricals</title>
     <?php
-        include("headmeta.php")
+        include("headmeta.php");
     ?>
 </head>
 
@@ -176,10 +176,10 @@
     <!-- Gallery Section /- -->
     <!--CEO's tab-->
     <div class="container row p-5">
-        <div class="col-sm-4">
-            <img src="/images/gallery-3.jpg" alt="" class="img-thumbnail" style="border-radius: 50%;">
+        <div class="col-sm-4 p-0">
+            <img src="images/gallery-3.jpg" alt="" class="img-thumbnail my-auto" style="border-radius: 50%;">
         </div>
-        <div class="col-sm-8 p-5">
+        <div class="col-sm-8 p-md-5">
             <div class="">
                 <h1>James S Wilken</h1>
                 <strong>Founder and Managing Director</strong>
@@ -217,8 +217,8 @@
                         </div>
 
                         <div class="container">
-                            <h5> Sandy Alext</h5>
-                            <span>Contractor</span>
+                            <h5>Krishna Podokku</h5>
+                            <strong>Tech</strong>
                             <p>"time to raise the curtain on the Muppet Show tonight. Fleeing from the Cylon tyranny the
                                 last Battlestar – Galactica - " </p>
                         </div>
@@ -232,14 +232,10 @@
                         </div>
 
                         <div class="container">
-                            <h5> Sandy Alext</h5>
-                            <span>Contractor</span>
-                            <p class="">After extensive research, we selected and engaged Jwelectricals to prepare full
-                                elecrical service in our new headquaters. From inception, their customer
-                                service was exemplary in courtesy and professionalism.
-
-                                Lastly, and most importantly, we have received numerous compliments on our website and
-                                marketing materials, from clients and industry peers. We highly recommend Jwelectricals.
+                            <h5> Brayden Smith</h5>
+                            <strong>Contractor</strong>
+                            <p class="">From inception, their customer
+                                service was exemplary in courtesy and professionalism.                                
                             </p>
                         </div>
                     </div>
@@ -251,10 +247,10 @@
                         </div>
 
                         <div class="container">
-                            <h5> Sandy Alext</h5>
-                            <span>Contractor</span>
-                            <p>"time to raise the curtain on the Muppet Show tonight. Fleeing from the Cylon tyranny the
-                                last Battlestar – Galactica - " </p>
+                            <h5> Sandy williams</h5>
+                            <strong>Project Mngr</strong>
+                            <p>After extensive research, we selected and engaged Jwelectricals to prepare full
+                                elecrical service in our new headquaters; we were never dissapointed.</p>
                         </div>
                     </div>
                 </div>
@@ -266,10 +262,10 @@
                         </div>
 
                         <div class="container">
-                            <h5> Sandy Alext</h5>
-                            <span>Contractor</span>
-                            <p>"time to raise the curtain on the Muppet Show tonight. Fleeing from the Cylon tyranny the
-                                last Battlestar – Galactica - " </p>
+                            <h5> Roslyn Doe</h5>
+                            <strong>Fintech CEO</strong>
+                            <p>After their service, we have received numerous compliments on our website and
+                                marketing materials, from clients and industry peers. We highly recommend Jwelectricals.</p>
                         </div>
                     </div>
                 </div>

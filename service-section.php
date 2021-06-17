@@ -1,6 +1,6 @@
 <div class="services-section   container-fluid">
         <!-- Container -->
-        <div class="container">
+        <div class="">
             <!-- Section Header -->
             <div class="section-header text-center">
                 <h3>Our services </h3>

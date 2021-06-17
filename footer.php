@@ -22,11 +22,11 @@
 					<aside class="widget widget_links">
 						<h3 class="widget-title">quick links</h3>
 						<ul>
-							<li><a href="index.html">Home</a></li>
-							<li><a href="about.html">About Us</a></li>
-							<li><a href="services.html">Our Services</a></li>
-							<li><a href="career.html">Career</a></li>
-							<li><a href="contact-us.html">Contact Us</a></li>
+							<li><a href="index.php">Home</a></li>
+							<li><a href="about.php">About Us</a></li>
+							<li><a href="services.php">Our Services</a></li>
+							<li><a href="career.php">Career</a></li>
+							<li><a href="contact-us.php">Contact Us</a></li>
 						</ul>
 					</aside>
 				</div><!-- Widget Links /- -->
@@ -50,7 +50,7 @@
 						<p>You may contact us during working timing</p>
 						<p><i class="icon icon-Phone2"></i> <span>Tel</span><a href="tel:817-909-0836"> : 817-909-0836 </a></p>
 						<p><i class="icon icon-Mail"></i> <span>Email</span><a href="jwelectricals@usa.com"> : jwelectricals@usa.com</a></p>
-						<p><i class="icon icon-Time"></i> <span>Working Hours </span> : 8:00 a.m - 17:00 a.m</p>
+						<p><i class="icon icon-Time"></i> <span>Working Hours </span> : 8:00 a.m - 17:00 </p>
 					</aside>
 				</div>
 				<!-- Widget Info /- -->

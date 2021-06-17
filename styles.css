@@ -9,9 +9,11 @@
 }
 /* Header sec */
 .my-header{
-    background-image: url(./images/pexel3.jpg);
+    background-image: url(./images/bg.jpg);
     background-position: top;
 	display: flex;
+	background-size: cover;
+	background-position: top;
 	justify-content: center;
 	flex-direction: column;
 	color: white;
@@ -449,7 +451,7 @@
 	border: 2px solid #ffb609;
 	color: #fff;
 	display: inline-block;
-	float: right;
+	/* float: right; */
 	font-family: 'Lato', sans-serif;
 	font-weight: 700;
 	font-size: 13px;
@@ -606,13 +608,12 @@
     .about-content-right{
         margin-top: 50px;
     }
-	.my-header h1{
+	.h-overlay h1{
 		font-size: 70px;
-		color: #dc7614;
-		font-weight: bolder;
+		/* line-height: 30px; */
 	}
-	.my-header h3{
-		font-size: 40px;
+	.h-overlay h3{
+		font-size: 50px;
 		font-weight: bolder;
 	}
 }
