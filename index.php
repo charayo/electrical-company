@@ -204,7 +204,7 @@
                 <div class="col-md-5 card p-4 mt-4">
                     <div class="d-flex">
                         <div class="">
-                            <img src="images/testi-1.jpg" alt="testi" />
+                            <img src="images/client1.jpg" alt="testi" />
                         </div>
 
                         <div class="container">
@@ -234,7 +234,7 @@
                 <div class="col-md-5 card p-4 mt-4">
                     <div class="d-flex">
                         <div class="">
-                            <img src="images/team-3.jpg" alt="testi" class="w-75" />
+                            <img src="images/client3.jpg" alt="testi" />
                         </div>
 
                         <div class="container">
@@ -249,7 +249,7 @@
                 <div class="col-md-5 card p-4 mt-4">
                     <div class="d-flex">
                         <div class="">
-                            <img src="images/team-2.jpg" alt="testi" class="w-75" />
+                            <img src="images/client2.jpg" alt="testi" />
                         </div>
 
                         <div class="container">
