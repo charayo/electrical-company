@@ -17,12 +17,12 @@
     ?>
     <!--Header section-->
     <?php
-        include("header.php");
+    include("header.php");
     ?>
     <!--Header section-->
     <!-- Services Section -->
     <?php
-        include("service-section.php")
+    include("service-section.php")
     ?>
     <!-- Services Section -->
     <!-- About Section -->
@@ -64,8 +64,7 @@
                 </div>
 
             </div>
-            <button type="button" class="btn btn-dark"><a style="text-decoration: none; color:white;"
-                    href="/about.html">Read more >></a></button>
+            <button type="button" class="btn btn-dark"><a style="text-decoration: none; color:white;" href="/about.html">Read more >></a></button>
         </div>
         <!-- Container /- -->
     </div><!-- About Section -->
@@ -87,8 +86,7 @@
                 <div class="content-image-block">
                     <img class="img-thumbnail" src="images/gallery-1.jpg" alt="gallery">
                     <div class="content-block-hover">
-                        <a class="zoom-in" href="images/gallery-1.jpg" title="Expand"><i
-                                class="icon icon-Search"></i></a>
+                        <a class="zoom-in" href="images/gallery-1.jpg" title="Expand"><i class="icon icon-Search"></i></a>
                         <h5>elecrical testing1</h5>
                         <span>lighting</span>
                     </div>
@@ -98,8 +96,7 @@
                 <div class="content-image-block">
                     <img class="img-thumbnail" src="images/gallery-2.jpg" alt="gallery">
                     <div class="content-block-hover">
-                        <a class="zoom-in" href="images/gallery-2.jpg" title="Expand"><i
-                                class="icon icon-Search"></i></a>
+                        <a class="zoom-in" href="images/gallery-2.jpg" title="Expand"><i class="icon icon-Search"></i></a>
                         <h5>elecrical testing2</h5>
                         <span>lighting</span>
                     </div>
@@ -109,8 +106,7 @@
                 <div class="content-image-block">
                     <img class="img-thumbnail" src="images/gallery-3.jpg" alt="gallery">
                     <div class="content-block-hover">
-                        <a class="zoom-in" href="images/gallery-3.jpg" title="Expand"><i
-                                class="icon icon-Search"></i></a>
+                        <a class="zoom-in" href="images/gallery-3.jpg" title="Expand"><i class="icon icon-Search"></i></a>
                         <h5>elecrical testing3</h5>
                         <span>lighting</span>
                     </div>
@@ -120,8 +116,7 @@
                 <div class="content-image-block">
                     <img class="img-thumbnail" src="images/gallery-4.jpg" alt="gallery">
                     <div class="content-block-hover">
-                        <a class="zoom-in" href="images/gallery-4.jpg" title="Expand"><i
-                                class="icon icon-Search"></i></a>
+                        <a class="zoom-in" href="images/gallery-4.jpg" title="Expand"><i class="icon icon-Search"></i></a>
                         <h5>elecrical testing 4</h5>
                         <span>lighting</span>
                     </div>
@@ -131,8 +126,7 @@
                 <div class="content-image-block">
                     <img class="img-thumbnail" src="images/gallery-5.jpg" alt="gallery">
                     <div class="content-block-hover">
-                        <a class="zoom-in" href="images/gallery-5.jpg" title="Expand"><i
-                                class="icon icon-Search"></i></a>
+                        <a class="zoom-in" href="images/gallery-5.jpg" title="Expand"><i class="icon icon-Search"></i></a>
                         <h5>elecrical testing</h5>
                         <span>lighting</span>
                     </div>
@@ -142,8 +136,7 @@
                 <div class="content-image-block">
                     <img class="img-thumbnail" src="images/gallery-6.jpg" alt="gallery">
                     <div class="content-block-hover">
-                        <a class="zoom-in" href="images/gallery-6.jpg" title="Expand"><i
-                                class="icon icon-Search"></i></a>
+                        <a class="zoom-in" href="images/gallery-6.jpg" title="Expand"><i class="icon icon-Search"></i></a>
                         <h5>elecrical testing</h5>
                         <span>lighting</span>
                     </div>
@@ -153,8 +146,7 @@
                 <div class="content-image-block">
                     <img class="img-thumbnail" src="images/gallery-7.jpg" alt="gallery">
                     <div class="content-block-hover">
-                        <a class="zoom-in" href="images/gallery-7.jpg" title="Expand"><i
-                                class="icon icon-Search"></i></a>
+                        <a class="zoom-in" href="images/gallery-7.jpg" title="Expand"><i class="icon icon-Search"></i></a>
                         <h5>elecrical testing</h5>
                         <span>lighting</span>
                     </div>
@@ -164,8 +156,7 @@
                 <div class="content-image-block">
                     <img class="img-thumbnail" src="images/gallery-8.jpg" alt="gallery">
                     <div class="content-block-hover">
-                        <a class="zoom-in" href="images/gallery-8.jpg" title="Expand"><i
-                                class="icon icon-Search"></i></a>
+                        <a class="zoom-in" href="images/gallery-8.jpg" title="Expand"><i class="icon icon-Search"></i></a>
                         <h5>elecrical testing</h5>
                         <span>lighting</span>
                     </div>
@@ -194,9 +185,9 @@
         </div>
     </div>
     <!-- Call Out -->
-        <?php
-            include("call-out.php");
-        ?>
+    <?php
+    include("call-out.php");
+    ?>
     <!-- Call Out /- -->
 
     <!-- Testimonial Section -->
@@ -235,7 +226,7 @@
                             <h5> Brayden Smith</h5>
                             <strong>Contractor</strong>
                             <p class="">From inception, their customer
-                                service was exemplary in courtesy and professionalism.                                
+                                service was exemplary in courtesy and professionalism.
                             </p>
                         </div>
                     </div>
@@ -276,7 +267,7 @@
     </div><!-- Testimonial Section /- -->
     <!-- Footer Main -->
     <?php
-        include("footer.php")
+    include("footer.php")
     ?>
 </body>
 
