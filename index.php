@@ -17,7 +17,7 @@
     ?>
     <!--Header section-->
     <?php
-    include("header.php");
+        include("header.php");
     ?>
     <!--Header section-->
     <!-- Services Section -->
@@ -87,7 +87,7 @@
                     <img class="img-thumbnail" src="images/gallery-1.jpg" alt="gallery">
                     <div class="content-block-hover">
                         <a class="zoom-in" href="images/gallery-1.jpg" title="Expand"><i class="icon icon-Search"></i></a>
-                        <h5>elecrical testing1</h5>
+                        <h5>electrical testing</h5>
                         <span>lighting</span>
                     </div>
                 </div>
@@ -97,7 +97,7 @@
                     <img class="img-thumbnail" src="images/gallery-2.jpg" alt="gallery">
                     <div class="content-block-hover">
                         <a class="zoom-in" href="images/gallery-2.jpg" title="Expand"><i class="icon icon-Search"></i></a>
-                        <h5>elecrical testing2</h5>
+                        <h5>electrical testing</h5>
                         <span>lighting</span>
                     </div>
                 </div>
@@ -107,7 +107,7 @@
                     <img class="img-thumbnail" src="images/gallery-3.jpg" alt="gallery">
                     <div class="content-block-hover">
                         <a class="zoom-in" href="images/gallery-3.jpg" title="Expand"><i class="icon icon-Search"></i></a>
-                        <h5>elecrical testing3</h5>
+                        <h5>electrical testing</h5>
                         <span>lighting</span>
                     </div>
                 </div>
@@ -117,7 +117,7 @@
                     <img class="img-thumbnail" src="images/gallery-4.jpg" alt="gallery">
                     <div class="content-block-hover">
                         <a class="zoom-in" href="images/gallery-4.jpg" title="Expand"><i class="icon icon-Search"></i></a>
-                        <h5>elecrical testing 4</h5>
+                        <h5>electrical testing 4</h5>
                         <span>lighting</span>
                     </div>
                 </div>
@@ -127,7 +127,7 @@
                     <img class="img-thumbnail" src="images/gallery-5.jpg" alt="gallery">
                     <div class="content-block-hover">
                         <a class="zoom-in" href="images/gallery-5.jpg" title="Expand"><i class="icon icon-Search"></i></a>
-                        <h5>elecrical testing</h5>
+                        <h5>electrical testing</h5>
                         <span>lighting</span>
                     </div>
                 </div>
@@ -137,7 +137,7 @@
                     <img class="img-thumbnail" src="images/gallery-6.jpg" alt="gallery">
                     <div class="content-block-hover">
                         <a class="zoom-in" href="images/gallery-6.jpg" title="Expand"><i class="icon icon-Search"></i></a>
-                        <h5>elecrical testing</h5>
+                        <h5>electrical testing</h5>
                         <span>lighting</span>
                     </div>
                 </div>
@@ -147,7 +147,7 @@
                     <img class="img-thumbnail" src="images/gallery-7.jpg" alt="gallery">
                     <div class="content-block-hover">
                         <a class="zoom-in" href="images/gallery-7.jpg" title="Expand"><i class="icon icon-Search"></i></a>
-                        <h5>elecrical testing</h5>
+                        <h5>electrical testing</h5>
                         <span>lighting</span>
                     </div>
                 </div>
@@ -157,7 +157,7 @@
                     <img class="img-thumbnail" src="images/gallery-8.jpg" alt="gallery">
                     <div class="content-block-hover">
                         <a class="zoom-in" href="images/gallery-8.jpg" title="Expand"><i class="icon icon-Search"></i></a>
-                        <h5>elecrical testing</h5>
+                        <h5>electrical testing</h5>
                         <span>lighting</span>
                     </div>
                 </div>
@@ -165,25 +165,7 @@
         </ul>
     </div>
     <!-- Gallery Section /- -->
-    <!--CEO's tab-->
-    <div class="container row p-5">
-        <div class="col-sm-4 p-0">
-            <img src="images/gallery-3.jpg" alt="" class="img-thumbnail my-auto" style="border-radius: 50%;">
-        </div>
-        <div class="col-sm-8 p-md-5">
-            <div class="">
-                <h1>James S Wilken</h1>
-                <strong>Founder and Managing Director</strong>
-                <p style="text-align: justify;">
-                    Mr. Wilken started his career in 1994 with one of the most reputed engineering companies in the
-                    world and worked on a Thermal Power Station project. Before he founded JW Electricals in 2001, he
-                    has worked with various engineering companies and headed several prestigious projects around the
-                    globe. He has more than 20 years of experience in the design, planning, execution and operation, and
-                    maintenance of electrical projects.
-                </p>
-            </div>
-        </div>
-    </div>
+    
     <!-- Call Out -->
     <?php
     include("call-out.php");
@@ -196,7 +178,7 @@
         <div class="container">
             <!-- Section Header -->
             <div class="section-header text-center">
-                <h3>testimonials</h3>
+                <h3>Testimonials</h3>
                 <img src="images/seprator.png" alt="seprator" />
             </div><!-- Section Header /- -->
             <!-- Row -->

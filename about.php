@@ -13,8 +13,27 @@
 	include("navbar.php")
 	?>
 	<!--Header section-->
-	<div class="container-fluid my-header">
+	<div class="container-fluid my-header ceo-header" style="position: relative;">
+		<div class="container row mx-auto">
+			<div class="col-sm-5" style="z-index: 4;">
+				<img class="" src="./images/ceo-jwelectricals.png" alt="" style="width: 300px; height:300px; border-radius:50%;">
+			</div>
 
+			<div class=" col-sm-5" style="z-index: 3;">
+				<h1>James S Wilken</h1>
+				<strong class="">Founder and Managing Director</strong>
+				<p class="w-100" style="text-align: justify;">
+					Mr. Wilken started his career in 1994 with one of the most reputed engineering companies in the
+					world and worked on a Thermal Power Station project. Before he founded JW Electricals in 2001, he
+					has worked with various engineering companies and headed several prestigious projects around the
+					globe. He has more than 20 years of experience in the design, planning, execution and operation, and
+					maintenance of electrical projects.
+				</p>
+			</div>
+		</div>
+
+		<div class="h-overlay">
+		</div>
 	</div>
 	<!--Header section-->
 
@@ -120,8 +139,8 @@
 
 	<!-- Footer Main -->
 	<?php
-        include("footer.php")
-    ?>
+	include("footer.php")
+	?>
 
 </body>
 

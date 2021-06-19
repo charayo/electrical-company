@@ -7,6 +7,9 @@
 .my-gold-txt a{
 	font-weight: bold;
 }
+.txt-color{
+	color: #dc7614 !important;
+}
 /* Header sec */
 .my-header{
     background-image: url(./images/bg.jpg);
@@ -52,7 +55,7 @@
 /* - Services Section */
 .services-section {
 	background-color: #f5f5f5;
-	padding-top: 145px;
+	padding-top: 45px;
 	padding-bottom: 115px;
 }
 .services-section .srv-box {
@@ -615,5 +618,11 @@
 	.h-overlay h3{
 		font-size: 50px;
 		font-weight: bolder;
+	}
+	.ceo-header{
+		height: 700px;
+	}
+	.h-overlay{
+		height: auto;
 	}
 }

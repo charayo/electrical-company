@@ -1,6 +1,5 @@
 <div class="services-section   container-fluid">
         <!-- Container -->
-        <div class="">
             <!-- Section Header -->
             <div class="section-header text-center">
                 <h3>Our services </h3>
@@ -36,6 +35,5 @@
                     </div>
                 </div>
             </div>
-
-        </div><!-- Container /- -->
+            <!-- Container /- -->
     </div>

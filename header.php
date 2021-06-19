@@ -1,6 +1,3 @@
-<?php
-include("headmeta.php");
-?>
 <!--Header section-->
 <div class="h-wrap">
     <div class="container-fluid my-header">

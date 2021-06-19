@@ -9,11 +9,11 @@
 						<h3 class="widget-title">About Us</h3>
 						<p>together yet they were all alone. Wouldn't you like to get away? Sometimes you want to go where everybody</p>
 						<ul class="footer-social">
-							<li><a href="#"><i class="fas fa-coffee"></i></a></li>
-							<li><a href="#"><i class="fas fa-coffee"></i></a></li>
-							<li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-							<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-							<li><a href="#"><i class="fa fa-instagram"></i></a></li>
+							<li><a href="#"><i class="fab fa-twitter"></i></a></li>
+							<li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+							<li><a href="#"><i class="fab fa-google-plus"></i></a></li>
+							<li><a href="#"><i class="fab fa-linkedin"></i></a></li>
+							<li><a href="#"><i class="fab fa-instagram"></i></a></li>
 						</ul>
 					</aside>
 				</div><!-- Widget About /- -->

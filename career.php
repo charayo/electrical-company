@@ -44,7 +44,7 @@
                 </div>
                 <div class="form-row mb-2">
                     <div class="col">
-                        <input type="password" class="form-control" placeholder="Firstname" name="Firstname">
+                        <input type="password" class="form-control" placeholder="Name" name="Name">
                     </div>
                     <div class="col">
                         <input type="password" class="form-control" placeholder="Email" name="email">
@@ -52,7 +52,7 @@
                 </div>
                 <div class="form-row mb-2">
                     <div class="col">
-                        <input type="password" class="form-control" placeholder="Age" name="pswd">
+                        <input type="password" class="form-control" placeholder="Age" name="">
                     </div>
                     <div class="col">
                         <input type="password" class="form-control" placeholder="Phone Number" name="phone">
@@ -68,26 +68,26 @@
                 </div>
                 <div class="form-row mb-2">
                     <div class="col">
-                        <input type="password" class="form-control" placeholder="Organisation Presently Employed with" name="pswd">
+                        <input type="password" class="form-control" placeholder="Organisation Presently Employed with" name="">
                     </div>
                     <div class="col">
-                        <input type="password" class="form-control" placeholder="City" name="pswd">
-                    </div>
-                </div>
-                <div class="form-row mb-2">
-                    <div class="col">
-                        <input type="password" class="form-control" placeholder="Area of Specialization" name="pswd">
-                    </div>
-                    <div class="col">
-                        <input type="password" class="form-control" placeholder="Pin / Zip" name="pswd">
+                        <input type="password" class="form-control" placeholder="City" name="">
                     </div>
                 </div>
                 <div class="form-row mb-2">
                     <div class="col">
-                        <input type="password" class="form-control" placeholder="If others, please specify" name="pswd">
+                        <input type="password" class="form-control" placeholder="Area of Specialization" name="">
                     </div>
                     <div class="col">
-                        <input type="password" class="form-control" placeholder="Country" name="pswd">
+                        <input type="password" class="form-control" placeholder="Pin / Zip" name="">
+                    </div>
+                </div>
+                <div class="form-row mb-2">
+                    <div class="col">
+                        <input type="password" class="form-control" placeholder="If others, please specify" name="">
+                    </div>
+                    <div class="col">
+                        <input type="password" class="form-control" placeholder="Country" name="">
                     </div>
                 </div>
                 <input type="file" name="upload" id="">
